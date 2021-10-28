@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "engines": {
     "node": "14.18.0"
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.6",
+    "babel-eslint": "^10.1.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "postcss": "^8.3.8",
